@@ -1,0 +1,147 @@
+* {
+	background-color: #e8dde0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: grey;
+	border-radius: 10px;
+}
+
+#myBtn {
+	display: block;
+	width: 60px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 99;
+	border: none;
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.50);
+	outline: none;
+	background-color: #ffffff;
+	color: #614c69;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 50%;
+	font-size: 30px;
+}
+  
+#myBtn:hover {
+	color: #ffffff;
+	background-color: #614c69;
+}
+
+.Item { 
+	opacity:1;
+	width:689px;
+	height:437.5px;
+	position:absolute;
+	left:86px;
+	top:120px;
+}
+
+.Item-image {
+	background-color:#e8dde0;
+	opacity:1;
+	width:350px;
+	height:437.5px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.Item-Description { 
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:266px;
+	height:59px;
+	position:absolute;
+	left:423px;
+	top:0px;
+	font-family: 'Eagle Lake', cursive;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+.Contact { 
+	background-color:#e8dde0;
+	opacity:1;
+	width:507.27325439453125px;
+	height:208.05429077148438px;
+	position:absolute;
+	left:82px;
+	top:650px;
+}
+
+.Contact-title { 
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:187px;
+	height:59px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family: 'Eagle Lake', cursive;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+.Facebook-Logo { 
+	opacity:1;
+	width:150px;
+	height:100px;
+	position:absolute;
+	left:0px;
+	top:108px;
+	background-image: url(../../images/facebook-logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.Instagram-Logo { 
+	opacity:1;
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:187px;
+	top:108px;
+	background-image: url(../../images/instagram-logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.Gmail-Logo { 
+	opacity:1;
+	width:133px;
+	height:100px;
+	position:absolute;
+	left:374px;
+	top:108px;
+	background-image: url(../../images/gmail-logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.Blank-End {
+	background-color: #e8dde0;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	top: 900px;
+}

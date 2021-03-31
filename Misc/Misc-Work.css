@@ -1,0 +1,936 @@
+body {
+	background-color: #3B3039;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: grey;
+	border-radius: 10px;
+}
+
+#myBtn {
+	display: flex;
+	height: 70px;
+	width: 70px;
+	position: fixed;
+	bottom: 7%;
+	right: 4%;
+	z-index: 99;
+	border: none;
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.50);
+	outline: none;
+	background-color: #3B3039;
+	color: #bf2766;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 50%;
+	font-size: 30px;
+	text-align: center;
+}
+  
+#myBtn:hover {
+	color: #e79570;
+	background-color: #614c69;
+}
+
+.Header, .Header-effect {
+	display: flex;
+	flex-wrap:wrap;
+	z-index: 1;
+	background-color:#3B3039;
+	opacity:1;
+	width:100%;
+	height:194px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.Header-effect { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Logo { 
+	display: flex;
+	opacity:1;
+	width:170px;
+	height:170px;
+	position:absolute;
+	left:3%;
+	top:3%;
+	border-top-left-radius:160px;
+	border-top-right-radius:160px;
+	border-bottom-left-radius:160px;
+	border-bottom-right-radius:160px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	z-index: 1;
+}
+
+.About-link, .Works-link, .Contact-link {
+	top:79px;
+	font-family: 'Charm', cursive;
+	text-align:center;
+	font-size:45px;
+	letter-spacing:0;
+	line-height:undefined;
+	height:35px;
+	position: absolute;
+	color:#E79570;
+	opacity:1;
+	z-index: 1;
+	width: 160px;
+	text-decoration: none;
+}
+
+.About-link {
+	left: 60%;
+	flex: 1;
+	order: 1;
+}
+
+.Works-link {
+	left: 74%;
+	flex: 2;
+	order: 2;
+}
+
+.Contact-link {
+	left: 87%;
+	flex: 3;
+	order: 3;
+}
+
+.Works-Desc { 
+	background-color:#3B3039;
+	opacity:1;
+	width: 100%;
+	height:6840.5px;
+	position:absolute;
+	left:0px;
+	top:265px;
+}
+
+.Theme-Photo { 
+	background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 1);
+	opacity:1;
+	width:1275px;
+	height:230px;
+	position:absolute;
+	left: 110px;
+	top:0px;
+}
+
+.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work-9, .Work-10, .Work-11, .Work-12, .Work-13,
+.Work-14, .Work-15, .Work-16, .Work-17, .Work-18, .Work-19, .Work-20, .Work-21, .Work-22, .Work-23, .Work-24, .Work-25,
+.Work-26, .Work-27, .Work-28, .Work-29, .Work-30, .Work-31, .Work-32, .Work-33, .Work-34, .Work-35, .Work-36, .Work-37,
+.Work-38 { 
+	opacity:1;
+	width:350px;
+	height:437.5px;
+	position:absolute;
+}
+
+.Work-1:hover, .Work-2:hover, .Work-3:hover, .Work-4:hover, .Work-5:hover, .Work-6:hover, .Work-7:hover, .Work-8:hover,
+.Work-9:hover, .Work-10:hover, .Work-11:hover, .Work-12:hover, .Work-13:hover, .Work-14:hover, .Work-15:hover,
+.Work-16:hover, .Work-17:hover, .Work-18:hover, .Work-19:hover, .Work-20:hover, .Work-21:hover, .Work-22:hover,
+.Work-23:hover, .Work-24:hover, .Work-25:hover, .Work-26:hover, .Work-27:hover, .Work-28:hover, .Work-29:hover,
+.Work-30:hover, .Work-31:hover, .Work-32:hover, .Work-33:hover, .Work-34:hover, .Work-35:hover, .Work-36:hover,
+.Work-37:hover, .Work-38:hover {
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 19px 43px;
+  	transform: translate3d(0px, -7px, -7px);
+}
+
+.Work-1, .Work-4, .Work-7, .Work-10, .Work-13, .Work-16, .Work-19, .Work-22, .Work-25, .Work-28, .Work-31, .Work-34,
+.Work-37 {
+	left: 110px;
+}
+
+.Work-2, .Work-5, .Work-8, .Work-11, .Work-14, .Work-17, .Work-20, .Work-23, .Work-26, .Work-29, .Work-32, .Work-35,
+.Work-38 {
+	left:574px;
+}
+
+.Work-3, .Work-6, .Work-9, .Work-12, .Work-15, .Work-18, .Work-21, .Work-24, .Work-27, .Work-30, .Work-33, .Work-36 {
+	left:1036px;
+}
+
+.Work-1, .Work-2, .Work-3 {
+	top:301px;
+}
+
+.Work-4, .Work-5, .Work-6 {
+	top:809.5px;
+}
+
+.Work-7, .Work-8, .Work-9 {
+	top: 1318px;
+}
+
+.Work-10, .Work-11, .Work-12 {
+	top: 1826.5px;
+}
+
+.Work-13, .Work-14, .Work-15 {
+	top: 2335px;
+}
+
+.Work-16, .Work-17, .Work-18 {
+	top:2843.5px;
+}
+
+.Work-19, .Work-20, .Work-21 {
+	top:3352px;
+}
+
+.Work-22, .Work-23, .Work-24 {
+	top: 3860.5px;
+}
+
+.Work-25, .Work-26, .Work-27 {
+	top: 4369px;
+}
+
+.Work-28, .Work-29, .Work-30 {
+	top: 4877.5px;
+}
+
+.Work-31, .Work-32, .Work-33 {
+	top: 5386px;
+}
+
+.Work-34, .Work-35, .Work-36 {
+	top: 5894.5px;
+}
+
+.Work-37, .Work-38 {
+	top: 6403px;
+}
+
+.Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo, .Work6-Photo, .Work7-Photo, .Work8-Photo,
+.Work9-Photo, .Work10-Photo, .Work11-Photo, .Work12-Photo, .Work13-Photo, .Work14-Photo, .Work15-Photo, .Work16-Photo,
+.Work17-Photo, .Work18-Photo, .Work19-Photo, .Work20-Photo, .Work21-Photo, .Work22-Photo, .Work23-Photo, .Work24-Photo,
+.Work25-Photo, .Work26-Photo, .Work27-Photo, .Work28-Photo, .Work29-Photo, .Work30-Photo, .Work31-Photo, .Work32-Photo,
+.Work33-Photo, .Work34-Photo, .Work35-Photo, .Work36-Photo, .Work37-Photo, .Work38-Photo { 
+	background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 1);
+	opacity:1;
+	width:350px;
+	height:437.5px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+.Break-1 { 
+	transform: rotate(2.4848083448933725e-17deg);
+	opacity:1;
+	border-top:5px solid rgba(191.00000381469727, 39.00000147521496, 102.00000151991844, 1);
+	width:60%;
+	height:0px;
+	position:absolute;
+	left:20%;
+	top:7160px;
+}
+
+.Contact { 
+	opacity:1;
+	width:100%;
+	height:512px;
+	position:absolute;
+	left:0px;
+	top:7231px;
+	display: flex;
+}
+
+.Contact-Title { 
+	color:rgba(231.00000143051147, 149.00000631809235, 112.000000923872, 1);
+	opacity:1;
+	width:187px;
+	height:59px;
+	position:absolute;
+	left:40px;
+	top:20px;
+	font-family: 'Flavors', cursive;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:0;
+	line-height:undefined;
+}
+
+.Facebook-Logo { 
+	opacity:1;
+	width:114px;
+	height:100px;
+	position:absolute;
+	left:40px;
+	top:131px;
+	background-image: url(../images/facebook-logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.Instagram-Logo { 
+	opacity:1;
+	width:90px;
+	height:90px;
+	position:absolute;
+	left:227px;
+	top:131px;
+	background-image: url(../images/instagram-logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.Gmail-Logo { 
+	opacity:1;
+	width:117px;
+	height:87px;
+	position:absolute;
+	left:414px;
+	top:131px;
+	background-image: url(../images/gmail-logo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.Dead-End { 
+	background-color:rgba(0, 0, 0, 0.550000011920929);
+	opacity:1;
+	width:100%;
+	height:287px;
+	position:absolute;
+	left:0px;
+	top:7814px;
+}
+
+@media (min-width: 2560px) {
+
+	#myLinks {
+		display: none;
+	}
+
+	#myBtn {
+		height: 120px;
+		width: 120px;
+		font-size: 60px;
+	}
+
+	.Header, .Header-effect {
+		height: 250px;
+	}
+
+	.Logo {
+		height: 210px;
+		width: 210px;
+		top: 6%;
+	}
+
+	.About-link, .Works-link, .Contact-link {
+		top: 100px;
+		font-size: 55px;
+	}
+
+	.Works-Desc {
+		top: 400px;
+	}
+
+	.Theme-Photo {
+		width: 80%;
+		height: 250px;
+		left: 256px;
+	}
+
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+		width: 450px;
+		height: 562.5px;
+	}
+
+	.Work-1, .Work-5
+	{
+		margin-left: 256px;
+	}
+
+	.Work-2 {
+		margin-left: 820px;
+	}
+
+	.Work-3 {
+		margin-left: 1334px;
+	}
+
+	.Work-4 {
+		margin-left: 1848px;
+	}
+
+	.Work-1, .Work-2, .Work-3, .Work-4 {
+		top: 400px;
+	}
+
+	.Work-5 {
+		top: 1113px;
+	}
+
+	.Break-1 {
+		top: 2200px;
+	}
+
+	.Contact {
+		top: 2320px;
+	}
+
+	.Dead-End {
+		top: 2713px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+	#myLinks {
+		display: none;
+	}
+
+	#myBtn {
+		height: 60px;
+		width: 60px;
+		font-size: 30px;
+	}
+
+	.Header, .Header-effect {
+		height: 200px;
+	}
+
+	.Logo {
+		height: 150px;
+		width: 150px;
+		top: 13%;
+	}
+
+	.About-link, .Works-link, .Contact-link {
+		top: 80px;
+		font-size: 40px;
+	}
+
+	.About-link {
+		left: 56%;
+	}
+
+	.Works-link {
+		left: 70%;
+	}
+
+	.Contact-link {
+		left: 84%;
+	}
+
+	.Works-Desc {
+		top: 300px;
+	}
+
+	.Theme-Photo {
+		width: 80%;
+		height: 150px;
+		left: 100px;
+	}
+
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+		width: 350px;
+		height: 438px;
+	}
+
+	.Work-1, .Work-3, .Work-5 {
+		margin-left: 100px;
+	}
+
+	.Work-2, .Work-4 {
+		margin-left: 565px;
+	}
+
+	.Work-1, .Work-2 {
+		top: 200px;
+	}
+
+	.Work-3, .Work-4 {
+		top: 688px;
+	}
+
+	.Work-5 {
+		top: 1176px;
+	}
+
+	.Break-1 {
+		top: 2000px;
+	}
+
+	.Contact {
+		top: 2050px;
+	}
+
+	.Facebook-Logo {
+		left: 3%;
+		width: 90px;
+		height: 76px;
+	}
+
+	.Instagram-Logo {
+		left: 18%;
+		width:70px;
+		height:70px;
+	}
+
+	.Gmail-Logo {
+		left: 33%;
+		width:97px;
+		height:70px;
+	}
+
+	.Dead-End {
+		top: 2443px;
+		height: 150px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+	#myLinks {
+		display: none;
+	}
+
+	#myBtn {
+		display: none;
+	}
+
+	.Header, .Header-effect {
+		height: 180px;
+	}
+
+	.Logo {
+		height: 130px;
+		width: 130px;
+		top: 10%;
+	}
+
+	.About-link, .Works-link, .Contact-link {
+		top: 65px;
+		font-size: 30px;
+	}
+
+	.About-link {
+		left: 52%;
+	}
+
+	.Works-link {
+		left: 66%;
+	}
+
+	.Contact-link {
+		left: 80%;
+	}
+
+	.Works-Desc {
+		top: 250px;
+	}
+
+	.Theme-Photo {
+		width: 80%;
+		height: 150px;
+		left: 80px;
+	}
+
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+		width: 250px;
+		height: 312.5px;
+	}
+
+	.Work-1, .Work-3, .Work-5 {
+		margin-left: 80px;
+	}
+
+	.Work-2, .Work-4 {
+		margin-left: 440px;
+	}
+
+	.Work-1, .Work-2 {
+		top: 200px;
+	}
+
+	.Work-3, .Work-4 {
+		top: 563px;
+	}
+
+	.Work-5 {
+		top: 926px;
+	}
+
+	.Break-1 {
+		top: 1570px;
+	}
+
+	.Contact {
+		top: 1620px;
+		height: 300px;
+	}
+
+	.Facebook-Logo {
+		left: 3%;
+		width: 80px;
+		height: 66px;
+		top: 100px;
+	}
+
+	.Instagram-Logo {
+		left: 18%;
+		width:60px;
+		height:60px;
+		top: 100px;
+	}
+
+	.Gmail-Logo {
+		left: 33%;
+		width:87px;
+		height:60px;
+		top: 100px;
+	}
+
+	.Dead-End {
+		display: none;
+	}
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+	#myBtn {
+		display: none;
+		left: 45%;
+	}
+
+	.Header, .Header-effect {
+		height: 100px;
+	}
+
+	.Logo {
+		height: 80px;
+		width: 80px;
+		top: 6%;
+	}
+
+	.About-link, .Works-link, .Contact-link {
+		top: 35px;
+		font-size: 20px;
+	}
+
+	.About-link {
+		left: 40%;
+	}
+
+	.Works-link {
+		left: 56%;
+	}
+
+	.Contact-link {
+		left: 72%;
+	}
+
+	.Works-Desc {
+		top: 170px;
+	}
+
+	.Theme-Photo {
+		width: 80%;
+		height: 120px;
+		left: 43px;
+	}
+
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+		width: 250px;
+		height: 312.5px;
+	}
+
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5 {
+		margin-left: 88px;
+	}
+
+	.Work-1 {
+		top: 200px;
+	}
+
+	.Work-2 {
+		top: 593px;
+	}
+
+	.Work-3 {
+		top: 986px;
+	}
+
+	.Work-4 {
+		top: 1379px;
+	}
+
+	.Work-5 {
+		top: 1772px;
+	}
+
+	.Break-1 {
+		top: 2335px;
+	}
+
+	.Contact {
+		top: 2415px;
+		height: 200px;
+	}
+
+	.Facebook-Logo {
+		left: 5%;
+		width: 70px;
+		height: 56px;
+		top: 90px;
+	}
+
+	.Instagram-Logo {
+		left: 28%;
+		width:50px;
+		height:50px;
+		top: 95px;
+	}
+
+	.Gmail-Logo {
+		left: 51%;
+		width:67px;
+		height:50px;
+		top: 95px;
+	}
+
+	.Dead-End {
+		display: none;
+	}
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+
+	#myBtn {
+		display: none;
+		left: 45%;
+	}
+
+	.Header, .Header-effect {
+		height: 100px;
+	}
+
+	.Logo {
+		height: 80px;
+		width: 80px;
+		top: 6%;
+	}
+
+	.About-link, .Works-link, .Contact-link {
+		top: 35px;
+		font-size: 20px;
+	}
+
+	.About-link {
+		left: 35%;
+	}
+
+	.Works-link {
+		left: 51%;
+	}
+
+	.Contact-link {
+		left: 68%;
+	}
+
+	.Works-Desc {
+		top: 170px;
+	}
+
+	.Theme-Photo {
+		width: 80%;
+		height: 120px;
+		left: 38px;
+	}
+
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+		width: 250px;
+		height: 312.5px;
+	}
+
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5 {
+		margin-left: 63px;
+	}
+
+	.Work-1 {
+		top: 200px;
+	}
+
+	.Work-2 {
+		top: 593px;
+	}
+
+	.Work-3 {
+		top: 986px;
+	}
+
+	.Work-4 {
+		top: 1379px;
+	}
+
+	.Work-5 {
+		top: 1772px;
+	}
+
+	.Break-1 {
+		top: 2335px;
+	}
+
+	.Contact {
+		top: 2415px;
+		height: 200px;
+	}
+
+	.Facebook-Logo {
+		left: 5%;
+		width: 70px;
+		height: 56px;
+		top: 90px;
+	}
+
+	.Instagram-Logo {
+		left: 28%;
+		width:50px;
+		height:50px;
+		top: 95px;
+	}
+
+	.Gmail-Logo {
+		left: 51%;
+		width:67px;
+		height:50px;
+		top: 95px;
+	}
+
+	.Dead-End {
+		display: none;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+
+	#myBtn {
+		display: none;
+		left: 45%;
+	}
+
+	.Header, .Header-effect {
+		height: 100px;
+	}
+
+	.Logo {
+		height: 80px;
+		width: 80px;
+		top: 6%;
+	}
+
+	.About-link, .Works-link, .Contact-link {
+		top: 38px;
+		font-size: 15px;
+		width: 34px;
+	}
+
+	.About-link {
+		left: 50%;
+	}
+
+	.Works-link {
+		left: 65%;
+	}
+
+	.Contact-link {
+		left: 80%;
+	}
+
+	.Works-Desc {
+		top: 170px;
+		height: 1300px;
+	}
+
+	.Theme-Photo {
+		width: 80%;
+		height: 100px;
+		left: 32px;
+	}
+
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+		width: 150px;
+		height: 188px;
+	}
+
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5 {
+		margin-left: 85px;
+	}
+
+	.Work-1 {
+		top: 150px;
+	}
+
+	.Work-2 {
+		top: 388px;
+	}
+
+	.Work-3 {
+		top: 626px;
+	}
+
+	.Work-4 {
+		top: 864px;
+	}
+
+	.Work-5 {
+		top: 1102px;
+	}
+
+	.Break-1 {
+		top: 1500px;
+	}
+
+	.Contact {
+		top: 1550px;
+		height: 200px;
+	}
+
+	.Facebook-Logo {
+		left: 5%;
+		width: 50px;
+		height: 36px;
+		top: 90px;
+	}
+
+	.Instagram-Logo {
+		left: 28%;
+		width:30px;
+		height:30px;
+		top: 95px;
+	}
+
+	.Gmail-Logo {
+		left: 51%;
+		width:47px;
+		height:30px;
+		top: 95px;
+	}
+
+	.Dead-End {
+		display: none;
+	}
+}

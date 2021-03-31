@@ -1,0 +1,30 @@
+* {
+    background-color: #e8dde0;
+}
+
+.Image {
+    background-color:white;
+	opacity:1;
+	width:350px;
+	height:437.5px;
+	position:absolute;
+}
+
+.Image-1, .Image-2 {
+	top: 70px;
+}
+
+.Image-1 {
+	left: 100px;
+}
+
+.Image-2 {
+	left: 550px;
+}
+.Blank-End {
+	background-color: #e8dde0;
+	position: absolute;
+	height: 70px;
+	width: 100px;
+	top: 510px;
+}

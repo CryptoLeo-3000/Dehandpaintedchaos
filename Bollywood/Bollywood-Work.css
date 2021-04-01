@@ -149,15 +149,15 @@ html {
 }
 
 .Work-1, .Work-4, .Work-7 {
-	left: 110px;
+	margin-left: 110px;
 }
 
 .Work-2, .Work-5, .Work-8 {
-	left:574px;
+	margin-left:574px;
 }
 
 .Work-3, .Work-6 {
-	left:1036px;
+	margin-left:1036px;
 }
 
 .Work-1, .Work-2, .Work-3 {
@@ -422,15 +422,15 @@ html {
 	}
 
 	.Work-7, .Work-8 {
-		top: 1576px;
+		top: 1654px;
 	}
 
 	.Break-1 {
-		top: 2400px;
+		top: 2478px;
 	}
 
 	.Contact {
-		top: 2450px;
+		top: 2528px;
 	}
 
 	.Facebook-Logo {
@@ -452,7 +452,7 @@ html {
 	}
 
 	.Dead-End {
-		top: 2843px;
+		top: 2921px;
 		height: 150px;
 	}
 }
@@ -480,6 +480,7 @@ html {
 	.About-link, .Works-link, .Contact-link {
 		top: 65px;
 		font-size: 30px;
+		width: 90px;
 	}
 
 	.About-link {
@@ -504,16 +505,17 @@ html {
 		left: 80px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo,
+	.Work6-Photo, .Work7-Photo, .Work8-Photo {
 		width: 250px;
 		height: 312.5px;
 	}
 
-	.Work-1, .Work-3, .Work-5 {
+	.Work-1, .Work-3, .Work-5, .Work-7 {
 		margin-left: 80px;
 	}
 
-	.Work-2, .Work-4 {
+	.Work-2, .Work-4, .Work-6, .Work-8 {
 		margin-left: 440px;
 	}
 
@@ -525,16 +527,20 @@ html {
 		top: 563px;
 	}
 
-	.Work-5 {
+	.Work-5, .Work-6 {
 		top: 926px;
 	}
 
+	.Work-7, .Work-8 {
+		top: 1289px;
+	}
+
 	.Break-1 {
-		top: 1570px;
+		top: 1933px;
 	}
 
 	.Contact {
-		top: 1620px;
+		top: 1983px;
 		height: 300px;
 	}
 
@@ -584,18 +590,19 @@ html {
 	.About-link, .Works-link, .Contact-link {
 		top: 35px;
 		font-size: 20px;
+		width: 50px;
 	}
 
 	.About-link {
-		left: 40%;
+		left: 50%;
 	}
 
 	.Works-link {
-		left: 56%;
+		left: 68%;
 	}
 
 	.Contact-link {
-		left: 72%;
+		left: 84%;
 	}
 
 	.Works-Desc {
@@ -608,12 +615,13 @@ html {
 		left: 43px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo,
+	.Work6-Photo, .Work7-Photo, .Work8-Photo {
 		width: 250px;
 		height: 312.5px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5 {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8 {
 		margin-left: 88px;
 	}
 
@@ -637,12 +645,24 @@ html {
 		top: 1772px;
 	}
 
+	.Work-6 {
+		top: 2135px;
+	}
+
+	.Work-7 {
+		top: 2498px;
+	}
+
+	.Work-8 {
+		top: 2861px;
+	}
+
 	.Break-1 {
-		top: 2335px;
+		top: 3424px;
 	}
 
 	.Contact {
-		top: 2415px;
+		top: 3509px;
 		height: 200px;
 	}
 
@@ -692,18 +712,19 @@ html {
 	.About-link, .Works-link, .Contact-link {
 		top: 35px;
 		font-size: 20px;
+		width: 50px;
 	}
 
 	.About-link {
-		left: 35%;
+		left: 49%;
 	}
 
 	.Works-link {
-		left: 51%;
+		left: 65%;
 	}
 
 	.Contact-link {
-		left: 68%;
+		left: 81%;
 	}
 
 	.Works-Desc {
@@ -716,12 +737,13 @@ html {
 		left: 38px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo,
+	.Work6-Photo, .Work7-Photo, .Work8-Photo {
 		width: 250px;
 		height: 312.5px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5 {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8 {
 		margin-left: 63px;
 	}
 
@@ -745,12 +767,24 @@ html {
 		top: 1772px;
 	}
 
+	.Work-6 {
+		top: 2135px;
+	}
+
+	.Work-7 {
+		top: 2498px;
+	}
+
+	.Work-8 {
+		top: 2861px;
+	}
+
 	.Break-1 {
-		top: 2335px;
+		top: 3424px;
 	}
 
 	.Contact {
-		top: 2415px;
+		top: 3509px;
 		height: 200px;
 	}
 
@@ -826,12 +860,13 @@ html {
 		left: 32px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo,
+	.Work6-Photo, .Work7-Photo, .Work8-Photo {
 		width: 150px;
 		height: 188px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5 {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8 {
 		margin-left: 85px;
 	}
 
@@ -855,12 +890,24 @@ html {
 		top: 1102px;
 	}
 
+	.Work-6 {
+		top: 1340px;
+	}
+
+	.Work-7 {
+		top: 1578px;
+	}
+
+	.Work-8 {
+		top: 1816px;
+	}
+
 	.Break-1 {
-		top: 1500px;
+		top: 2214px;
 	}
 
 	.Contact {
-		top: 1550px;
+		top: 2264px;
 		height: 200px;
 	}
 

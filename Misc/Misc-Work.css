@@ -156,16 +156,16 @@ html {
 
 .Work-1, .Work-4, .Work-7, .Work-10, .Work-13, .Work-16, .Work-19, .Work-22, .Work-25, .Work-28, .Work-31, .Work-34,
 .Work-37 {
-	left: 110px;
+	margin-left: 110px;
 }
 
 .Work-2, .Work-5, .Work-8, .Work-11, .Work-14, .Work-17, .Work-20, .Work-23, .Work-26, .Work-29, .Work-32, .Work-35,
 .Work-38 {
-	left:574px;
+	margin-left:574px;
 }
 
 .Work-3, .Work-6, .Work-9, .Work-12, .Work-15, .Work-18, .Work-21, .Work-24, .Work-27, .Work-30, .Work-33, .Work-36 {
-	left:1036px;
+	margin-left:1036px;
 }
 
 .Work-1, .Work-2, .Work-3 {
@@ -353,25 +353,30 @@ html {
 		left: 256px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work-9, .Work-10, .Work-11, .Work-12, .Work-13, .Work-14,
+	.Work-15, .Work-16, .Work-17, .Work-18, .Work-19, .Work-20, .Work-21, .Work-22, .Work-23, .Work-24, .Work-25, .Work-26, .Work-27, .Work-28,
+	.Work-29, .Work-30, .Work-31, .Work-32, .Work-33, .Work-34, .Work-35, .Work-36, .Work-37, .Work-38, .Work1-Photo, .Work2-Photo, .Work3-Photo,
+	.Work4-Photo, .Work5-Photo, .Work6-Photo, .Work7-Photo, .Work8-Photo, .Work9-Photo, .Work10-Photo, .Work11-Photo, .Work12-Photo, .Work13-Photo,
+	.Work14-Photo, .Work15-Photo, .Work16-Photo, .Work17-Photo, .Work18-Photo, .Work19-Photo, .Work20-Photo, .Work21-Photo, .Work22-Photo,
+	.Work23-Photo, .Work24-Photo, .Work25-Photo, .Work26-Photo, .Work27-Photo, .Work28-Photo, .Work29-Photo, .Work30-Photo, .Work31-Photo,
+	.Work32-Photo, .Work33-Photo, .Work34-Photo, .Work35-Photo, .Work36-Photo, .Work37-Photo, .Work38-Photo {
 		width: 450px;
 		height: 562.5px;
 	}
 
-	.Work-1, .Work-5
-	{
+	.Work-1, .Work-5, .Work-9, .Work-13, .Work-17, .Work-21, .Work-25, .Work-29, .Work-33, .Work-37	{
 		margin-left: 256px;
 	}
 
-	.Work-2 {
+	.Work-2, .Work-6, .Work-10, .Work-14, .Work-18, .Work-22, .Work-26, .Work-30, .Work-34, .Work-38 {
 		margin-left: 820px;
 	}
 
-	.Work-3 {
+	.Work-3, .Work-7, .Work-11, .Work-15, .Work-19, .Work-23, .Work-27, .Work-31, .Work-35 {
 		margin-left: 1334px;
 	}
 
-	.Work-4 {
+	.Work-4, .Work-8, .Work-12, .Work-16, .Work-20, .Work-24, .Work-28, .Work-32, .Work-36 {
 		margin-left: 1848px;
 	}
 
@@ -379,20 +384,52 @@ html {
 		top: 400px;
 	}
 
-	.Work-5 {
+	.Work-5, .Work-6, .Work-7, .Work-8 {
 		top: 1113px;
 	}
 
+	.Work-9, .Work-10, .Work-11, .Work-12 {
+		top: 1826px;
+	}
+
+	.Work-13, .Work-14, .Work-15, .Work-16 {
+		top: 2539px;
+	}
+
+	.Work-17, .Work-18, .Work-19, .Work-20 {
+		top: 3252px;
+	}
+
+	.Work-21, .Work-22, .Work-23, .Work-24 {
+		top: 3965px;
+	}
+
+	.Work-25, .Work-26, .Work-27, .Work-28 {
+		top: 4678px;
+	}
+
+	.Work-29, .Work-30, .Work-31, .Work-32 {
+		top: 5391px;
+	}
+
+	.Work-33, .Work-34 , .Work-35, .Work-36 {
+		top: 6104px;
+	}
+
+	.Work-37, .Work-38 {
+		top: 6817px;
+	}
+
 	.Break-1 {
-		top: 2200px;
+		top: 7904px;
 	}
 
 	.Contact {
-		top: 2320px;
+		top: 8024px;
 	}
 
 	.Dead-End {
-		top: 2713px;
+		top: 8417px;
 	}
 }
 
@@ -445,16 +482,24 @@ html {
 		left: 100px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work-9, .Work-10, .Work-11, .Work-12, .Work-13, .Work-14,
+	.Work-15, .Work-16, .Work-17, .Work-18, .Work-19, .Work-20, .Work-21, .Work-22, .Work-23, .Work-24, .Work-25, .Work-26, .Work-27, .Work-28,
+	.Work-29, .Work-30, .Work-31, .Work-32, .Work-33, .Work-34, .Work-35, .Work-36, .Work-37, .Work-38, .Work1-Photo, .Work2-Photo, .Work3-Photo,
+	.Work4-Photo, .Work5-Photo, .Work6-Photo, .Work7-Photo, .Work8-Photo, .Work9-Photo, .Work10-Photo, .Work11-Photo, .Work12-Photo, .Work13-Photo,
+	.Work14-Photo, .Work15-Photo, .Work16-Photo, .Work17-Photo, .Work18-Photo, .Work19-Photo, .Work20-Photo, .Work21-Photo, .Work22-Photo,
+	.Work23-Photo, .Work24-Photo, .Work25-Photo, .Work26-Photo, .Work27-Photo, .Work28-Photo, .Work29-Photo, .Work30-Photo, .Work31-Photo,
+	.Work32-Photo, .Work33-Photo, .Work34-Photo, .Work35-Photo, .Work36-Photo, .Work37-Photo, .Work38-Photo {
 		width: 350px;
 		height: 438px;
 	}
 
-	.Work-1, .Work-3, .Work-5 {
+	.Work-1, .Work-3, .Work-5, .Work-7, .Work-9, .Work-11, .Work-13, .Work-15, .Work-17, .Work-19, .Work-21, .Work-23, .Work-25, .Work-27,
+	.Work-29, .Work-31, .Work-33, .Work-35, .Work-37 {
 		margin-left: 100px;
 	}
 
-	.Work-2, .Work-4 {
+	.Work-2, .Work-4, .Work-6, .Work-8, .Work-10, .Work-12, .Work-14, .Work-16, .Work-18, .Work-20, .Work-22, .Work-24, .Work-26, .Work-28,
+	.Work-30, .Work-32, .Work-34, .Work-36, .Work-38 {
 		margin-left: 565px;
 	}
 
@@ -466,16 +511,80 @@ html {
 		top: 688px;
 	}
 
-	.Work-5 {
+	.Work-5, .Work-6 {
 		top: 1176px;
 	}
 
+	.Work-7, .Work-8 {
+		top: 1654px;
+	}
+
+	.Work-9, .Work-10 {
+		top: 2142px;
+	}
+
+	.Work-11, .Work-12 {
+		top: 2630px;
+	}
+
+	.Work-13, .Work-14 {
+		top: 3118px;
+	}
+
+	.Work-15, .Work-16 {
+		top: 3606px;
+	}
+
+	.Work-17, .Work-18 {
+		top: 4094px;
+	}
+
+	.Work-19, .Work-20 {
+		top: 4582px;
+	}
+
+	.Work-21, .Work-22 {
+		top: 5070px;
+	}
+
+	.Work-23, .Work-24 {
+		top: 5558px;
+	}
+
+	.Work-25, .Work-26 {
+		top: 6046px;
+	}
+
+	.Work-27, .Work-28 {
+		top: 6534px;
+	}
+
+	.Work-29, .Work-30 {
+		top: 7022px;
+	}
+
+	.Work-31, .Work-32 {
+		top: 7510px;
+	}
+
+	.Work-33, .Work-34 {
+		top: 7998px;
+	}
+
+	.Work-35, .Work-36 {
+		top: 8486px;
+	}
+
+	.Work-37, .Work-38 {
+		top: 8974px;
+	}
+
 	.Break-1 {
-		top: 2000px;
+		top: 9800px;
 	}
 
 	.Contact {
-		top: 2050px;
+		top: 9850px;
 	}
 
 	.Facebook-Logo {
@@ -497,7 +606,7 @@ html {
 	}
 
 	.Dead-End {
-		top: 2443px;
+		top: 10300px;
 		height: 150px;
 	}
 }
@@ -525,6 +634,7 @@ html {
 	.About-link, .Works-link, .Contact-link {
 		top: 65px;
 		font-size: 30px;
+		width: 90px;
 	}
 
 	.About-link {
@@ -549,16 +659,24 @@ html {
 		left: 80px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work-9, .Work-10, .Work-11, .Work-12, .Work-13, .Work-14,
+	.Work-15, .Work-16, .Work-17, .Work-18, .Work-19, .Work-20, .Work-21, .Work-22, .Work-23, .Work-24, .Work-25, .Work-26, .Work-27, .Work-28,
+	.Work-29, .Work-30, .Work-31, .Work-32, .Work-33, .Work-34, .Work-35, .Work-36, .Work-37, .Work-38, .Work1-Photo, .Work2-Photo, .Work3-Photo,
+	.Work4-Photo, .Work5-Photo, .Work6-Photo, .Work7-Photo, .Work8-Photo, .Work9-Photo, .Work10-Photo, .Work11-Photo, .Work12-Photo, .Work13-Photo,
+	.Work14-Photo, .Work15-Photo, .Work16-Photo, .Work17-Photo, .Work18-Photo, .Work19-Photo, .Work20-Photo, .Work21-Photo, .Work22-Photo,
+	.Work23-Photo, .Work24-Photo, .Work25-Photo, .Work26-Photo, .Work27-Photo, .Work28-Photo, .Work29-Photo, .Work30-Photo, .Work31-Photo,
+	.Work32-Photo, .Work33-Photo, .Work34-Photo, .Work35-Photo, .Work36-Photo, .Work37-Photo, .Work38-Photo {
 		width: 250px;
 		height: 312.5px;
 	}
 
-	.Work-1, .Work-3, .Work-5 {
+	.Work-1, .Work-3, .Work-5, .Work-7, .Work-9, .Work-11, .Work-13, .Work-15, .Work-17, .Work-19, .Work-21, .Work-23, .Work-25, .Work-27,
+	.Work-29, .Work-31, .Work-33, .Work-35, .Work-37 {
 		margin-left: 80px;
 	}
 
-	.Work-2, .Work-4 {
+	.Work-2, .Work-4, .Work-6, .Work-8, .Work-10, .Work-12, .Work-14, .Work-16, .Work-18, .Work-20, .Work-22, .Work-24, .Work-26, .Work-28,
+	.Work-30, .Work-32, .Work-34, .Work-36, .Work-38 {
 		margin-left: 440px;
 	}
 
@@ -570,16 +688,80 @@ html {
 		top: 563px;
 	}
 
-	.Work-5 {
+	.Work-5, .Work-6 {
 		top: 926px;
 	}
 
+	.Work-7, .Work-8 {
+		top: 1289px;
+	}
+
+	.Work-9, .Work-10 {
+		top: 1652px;
+	}
+
+	.Work-11, .Work-12 {
+		top: 2015px;
+	}
+
+	.Work-13, .Work-14 {
+		top: 2378px;
+	}
+
+	.Work-15, .Work-16 {
+		top: 2741px;
+	}
+
+	.Work-17, .Work-18 {
+		top: 3104px;
+	}
+
+	.Work-19, .Work-20 {
+		top: 3467px;
+	}
+
+	.Work-21, .Work-22 {
+		top: 3830px;
+	}
+
+	.Work-23, .Work-24 {
+		top: 4193px;
+	}
+
+	.Work-25, .Work-26 {
+		top: 4556px;
+	}
+
+	.Work-27, .Work-28 {
+		top: 4919px;
+	}
+
+	.Work-29, .Work-30 {
+		top: 5282px;
+	}
+
+	.Work-31, .Work-32 {
+		top: 5645px;
+	}
+
+	.Work-33, .Work-34 {
+		top: 6008px;
+	}
+
+	.Work-35, .Work-36 {
+		top: 6371px;
+	}
+
+	.Work-37, .Work-38 {
+		top: 6734px;
+	}
+
 	.Break-1 {
-		top: 1570px;
+		top: 7400px;
 	}
 
 	.Contact {
-		top: 1620px;
+		top: 7450px;
 		height: 300px;
 	}
 
@@ -629,18 +811,19 @@ html {
 	.About-link, .Works-link, .Contact-link {
 		top: 35px;
 		font-size: 20px;
+		width: 50px;
 	}
 
 	.About-link {
-		left: 40%;
+		left: 50%;
 	}
 
 	.Works-link {
-		left: 56%;
+		left: 68%;
 	}
 
 	.Contact-link {
-		left: 72%;
+		left: 84%;
 	}
 
 	.Works-Desc {
@@ -653,12 +836,20 @@ html {
 		left: 43px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work-9, .Work-10, .Work-11, .Work-12, .Work-13, .Work-14,
+	.Work-15, .Work-16, .Work-17, .Work-18, .Work-19, .Work-20, .Work-21, .Work-22, .Work-23, .Work-24, .Work-25, .Work-26, .Work-27, .Work-28,
+	.Work-29, .Work-30, .Work-31, .Work-32, .Work-33, .Work-34, .Work-35, .Work-36, .Work-37, .Work-38, .Work1-Photo, .Work2-Photo, .Work3-Photo,
+	.Work4-Photo, .Work5-Photo, .Work6-Photo, .Work7-Photo, .Work8-Photo, .Work9-Photo, .Work10-Photo, .Work11-Photo, .Work12-Photo, .Work13-Photo,
+	.Work14-Photo, .Work15-Photo, .Work16-Photo, .Work17-Photo, .Work18-Photo, .Work19-Photo, .Work20-Photo, .Work21-Photo, .Work22-Photo,
+	.Work23-Photo, .Work24-Photo, .Work25-Photo, .Work26-Photo, .Work27-Photo, .Work28-Photo, .Work29-Photo, .Work30-Photo, .Work31-Photo,
+	.Work32-Photo, .Work33-Photo, .Work34-Photo, .Work35-Photo, .Work36-Photo, .Work37-Photo, .Work38-Photo {
 		width: 250px;
 		height: 312.5px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5 {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work-9, .Work-10, .Work-11, .Work-12, .Work-13, .Work-14,
+	.Work-15, .Work-16, .Work-17, .Work-18, .Work-19, .Work-20, .Work-21, .Work-22, .Work-23, .Work-24, .Work-25, .Work-26, .Work-27, .Work-28,
+	.Work-29, .Work-30, .Work-31, .Work-32, .Work-33, .Work-34, .Work-35, .Work-36, .Work-37, .Work-38 {
 		margin-left: 88px;
 	}
 
@@ -682,12 +873,144 @@ html {
 		top: 1772px;
 	}
 
+	.Work-6 {
+		top: 2165px;
+	}
+
+	.Work-7 {
+		top: 2558px;
+	}
+
+	.Work-8 {
+		top: 2951px;
+	}
+
+	.Work-9 {
+		top: 3344px;
+	}
+
+	.Work-10 {
+		top: 3737px;
+	}
+
+	.Work-11 {
+		top: 4130px;
+	}
+
+	.Work-12 {
+		top: 4523px;
+	}
+
+	.Work-13 {
+		top: 4916px;
+	}
+
+	.Work-14 {
+		top: 5309px;
+	}
+
+	.Work-15 {
+		top: 5702px;
+	}
+
+	.Work-16 {
+		top: 6095px;
+	}
+
+	.Work-17 {
+		top: 6488px;
+	}
+
+	.Work-18 {
+		top: 6881px;
+	}
+
+	.Work-29 {
+		top: 7274px;
+	}
+
+	.Work-20 {
+		top: 7667px;
+	}
+
+	.Work-21 {
+		top: 8060px;
+	}
+
+	.Work-22 {
+		top: 8453px;
+	}
+
+	.Work-23 {
+		top: 8846px;
+	}
+
+	.Work-24 {
+		top: 9239px;
+	}
+
+	.Work-25 {
+		top: 9632px;
+	}
+
+	.Work-26 {
+		top: 10025px;
+	}
+
+	.Work-27 {
+		top: 10418px;
+	}
+
+	.Work-28 {
+		top: 10811px;
+	}
+
+	.Work-29 {
+		top: 11204px;
+	}
+
+	.Work-30 {
+		top: 11597px;
+	}
+
+	.Work-31 {
+		top: 11990px;
+	}
+
+	.Work-32 {
+		top: 12383px;
+	}
+
+	.Work-33 {
+		top: 12776px;
+	}
+
+	.Work-34 {
+		top: 13169px;
+	}
+
+	.Work-35 {
+		top: 13562px;
+	}
+
+	.Work-36 {
+		top: 13955px;
+	}
+
+	.Work-37 {
+		top: 14348px;
+	}
+
+	.Work-38 {
+		top: 14741px;
+	}
+
 	.Break-1 {
-		top: 2335px;
+		top: 15300px;
 	}
 
 	.Contact {
-		top: 2415px;
+		top: 15350px;
 		height: 200px;
 	}
 
@@ -737,18 +1060,19 @@ html {
 	.About-link, .Works-link, .Contact-link {
 		top: 35px;
 		font-size: 20px;
+		width: 50px;
 	}
 
 	.About-link {
-		left: 35%;
+		left: 50%;
 	}
 
 	.Works-link {
-		left: 51%;
+		left: 68%;
 	}
 
 	.Contact-link {
-		left: 68%;
+		left: 84%;
 	}
 
 	.Works-Desc {
@@ -758,16 +1082,24 @@ html {
 	.Theme-Photo {
 		width: 80%;
 		height: 120px;
-		left: 38px;
+		left: 43px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work-9, .Work-10, .Work-11, .Work-12, .Work-13, .Work-14,
+	.Work-15, .Work-16, .Work-17, .Work-18, .Work-19, .Work-20, .Work-21, .Work-22, .Work-23, .Work-24, .Work-25, .Work-26, .Work-27, .Work-28,
+	.Work-29, .Work-30, .Work-31, .Work-32, .Work-33, .Work-34, .Work-35, .Work-36, .Work-37, .Work-38, .Work1-Photo, .Work2-Photo, .Work3-Photo,
+	.Work4-Photo, .Work5-Photo, .Work6-Photo, .Work7-Photo, .Work8-Photo, .Work9-Photo, .Work10-Photo, .Work11-Photo, .Work12-Photo, .Work13-Photo,
+	.Work14-Photo, .Work15-Photo, .Work16-Photo, .Work17-Photo, .Work18-Photo, .Work19-Photo, .Work20-Photo, .Work21-Photo, .Work22-Photo,
+	.Work23-Photo, .Work24-Photo, .Work25-Photo, .Work26-Photo, .Work27-Photo, .Work28-Photo, .Work29-Photo, .Work30-Photo, .Work31-Photo,
+	.Work32-Photo, .Work33-Photo, .Work34-Photo, .Work35-Photo, .Work36-Photo, .Work37-Photo, .Work38-Photo {
 		width: 250px;
 		height: 312.5px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5 {
-		margin-left: 63px;
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work-9, .Work-10, .Work-11, .Work-12, .Work-13, .Work-14,
+	.Work-15, .Work-16, .Work-17, .Work-18, .Work-19, .Work-20, .Work-21, .Work-22, .Work-23, .Work-24, .Work-25, .Work-26, .Work-27, .Work-28,
+	.Work-29, .Work-30, .Work-31, .Work-32, .Work-33, .Work-34, .Work-35, .Work-36, .Work-37, .Work-38 {
+		margin-left: 88px;
 	}
 
 	.Work-1 {
@@ -790,12 +1122,144 @@ html {
 		top: 1772px;
 	}
 
+	.Work-6 {
+		top: 2165px;
+	}
+
+	.Work-7 {
+		top: 2558px;
+	}
+
+	.Work-8 {
+		top: 2951px;
+	}
+
+	.Work-9 {
+		top: 3344px;
+	}
+
+	.Work-10 {
+		top: 3737px;
+	}
+
+	.Work-11 {
+		top: 4130px;
+	}
+
+	.Work-12 {
+		top: 4523px;
+	}
+
+	.Work-13 {
+		top: 4916px;
+	}
+
+	.Work-14 {
+		top: 5309px;
+	}
+
+	.Work-15 {
+		top: 5702px;
+	}
+
+	.Work-16 {
+		top: 6095px;
+	}
+
+	.Work-17 {
+		top: 6488px;
+	}
+
+	.Work-18 {
+		top: 6881px;
+	}
+
+	.Work-29 {
+		top: 7274px;
+	}
+
+	.Work-20 {
+		top: 7667px;
+	}
+
+	.Work-21 {
+		top: 8060px;
+	}
+
+	.Work-22 {
+		top: 8453px;
+	}
+
+	.Work-23 {
+		top: 8846px;
+	}
+
+	.Work-24 {
+		top: 9239px;
+	}
+
+	.Work-25 {
+		top: 9632px;
+	}
+
+	.Work-26 {
+		top: 10025px;
+	}
+
+	.Work-27 {
+		top: 10418px;
+	}
+
+	.Work-28 {
+		top: 10811px;
+	}
+
+	.Work-29 {
+		top: 11204px;
+	}
+
+	.Work-30 {
+		top: 11597px;
+	}
+
+	.Work-31 {
+		top: 11990px;
+	}
+
+	.Work-32 {
+		top: 12383px;
+	}
+
+	.Work-33 {
+		top: 12776px;
+	}
+
+	.Work-34 {
+		top: 13169px;
+	}
+
+	.Work-35 {
+		top: 13562px;
+	}
+
+	.Work-36 {
+		top: 13955px;
+	}
+
+	.Work-37 {
+		top: 14348px;
+	}
+
+	.Work-38 {
+		top: 14741px;
+	}
+
 	.Break-1 {
-		top: 2335px;
+		top: 15300px;
 	}
 
 	.Contact {
-		top: 2415px;
+		top: 15350px;
 		height: 200px;
 	}
 
@@ -862,21 +1326,28 @@ html {
 
 	.Works-Desc {
 		top: 170px;
-		height: 1300px;
 	}
 
 	.Theme-Photo {
 		width: 80%;
-		height: 100px;
-		left: 32px;
+		height: 120px;
+		left: 43px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work1-Photo, .Work2-Photo, .Work3-Photo, .Work4-Photo, .Work5-Photo {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work-9, .Work-10, .Work-11, .Work-12, .Work-13, .Work-14,
+	.Work-15, .Work-16, .Work-17, .Work-18, .Work-19, .Work-20, .Work-21, .Work-22, .Work-23, .Work-24, .Work-25, .Work-26, .Work-27, .Work-28,
+	.Work-29, .Work-30, .Work-31, .Work-32, .Work-33, .Work-34, .Work-35, .Work-36, .Work-37, .Work-38, .Work1-Photo, .Work2-Photo, .Work3-Photo,
+	.Work4-Photo, .Work5-Photo, .Work6-Photo, .Work7-Photo, .Work8-Photo, .Work9-Photo, .Work10-Photo, .Work11-Photo, .Work12-Photo, .Work13-Photo,
+	.Work14-Photo, .Work15-Photo, .Work16-Photo, .Work17-Photo, .Work18-Photo, .Work19-Photo, .Work20-Photo, .Work21-Photo, .Work22-Photo,
+	.Work23-Photo, .Work24-Photo, .Work25-Photo, .Work26-Photo, .Work27-Photo, .Work28-Photo, .Work29-Photo, .Work30-Photo, .Work31-Photo,
+	.Work32-Photo, .Work33-Photo, .Work34-Photo, .Work35-Photo, .Work36-Photo, .Work37-Photo, .Work38-Photo {
 		width: 150px;
 		height: 188px;
 	}
 
-	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5 {
+	.Work-1, .Work-2, .Work-3, .Work-4, .Work-5, .Work-6, .Work-7, .Work-8, .Work-9, .Work-10, .Work-11, .Work-12, .Work-13, .Work-14,
+	.Work-15, .Work-16, .Work-17, .Work-18, .Work-19, .Work-20, .Work-21, .Work-22, .Work-23, .Work-24, .Work-25, .Work-26, .Work-27, .Work-28,
+	.Work-29, .Work-30, .Work-31, .Work-32, .Work-33, .Work-34, .Work-35, .Work-36, .Work-37, .Work-38 {
 		margin-left: 85px;
 	}
 
@@ -893,40 +1364,172 @@ html {
 	}
 
 	.Work-4 {
-		top: 864px;
+		top: 776px;
 	}
 
 	.Work-5 {
-		top: 1102px;
+		top: 926px;
+	}
+
+	.Work-6 {
+		top: 1076px;
+	}
+
+	.Work-7 {
+		top: 1578px;
+	}
+
+	.Work-8 {
+		top: 1816px;
+	}
+
+	.Work-9 {
+		top: 1904px;
+	}
+
+	.Work-10 {
+		top: 2142px;
+	}
+
+	.Work-11 {
+		top: 2380px;
+	}
+
+	.Work-12 {
+		top: 2618px;
+	}
+
+	.Work-13 {
+		top: 2856px;
+	}
+
+	.Work-14 {
+		top: 3094px;
+	}
+
+	.Work-15 {
+		top: 3332px;
+	}
+
+	.Work-16 {
+		top: 3570px;
+	}
+
+	.Work-17 {
+		top: 3808px;
+	}
+
+	.Work-18 {
+		top: 4046px;
+	}
+
+	.Work-20 {
+		top: 4284px;
+	}
+
+	.Work-21 {
+		top: 4522px;
+	}
+
+	.Work-22 {
+		top: 4760px;
+	}
+
+	.Work-23 {
+		top: 4998px;
+	}
+
+	.Work-24 {
+		top: 5236px;
+	}
+
+	.Work-25 {
+		top: 5474px;
+	}
+
+	.Work-26 {
+		top: 5712px;
+	}
+
+	.Work-27 {
+		top: 5950px;
+	}
+
+	.Work-28 {
+		top: 6188px;
+	}
+
+	.Work-29 {
+		top: 6426px;
+	}
+
+	.Work-30 {
+		top: 6664px;
+	}
+
+	.Work-31 {
+		top: 6902px;
+	}
+
+	.Work-32 {
+		top: 7140px;
+	}
+
+	.Work-33 {
+		top: 7378px;
+	}
+
+	.Work-33 {
+		top: 7616px;
+	}
+
+	.Work-34 {
+		top: 7854px;
+	}
+
+	.Work-35 {
+		top: 8092px;
+	}
+
+	.Work-36 {
+		top: 8330px;
+	}
+
+	.Work-37 {
+		top: 8568px;
+	}
+
+	.Work-38 {
+		top: 8806px;
 	}
 
 	.Break-1 {
-		top: 1500px;
+		top: 9044px;
 	}
 
 	.Contact {
-		top: 1550px;
+		top: 15350px;
 		height: 200px;
 	}
 
 	.Facebook-Logo {
 		left: 5%;
-		width: 50px;
-		height: 36px;
+		width: 70px;
+		height: 56px;
 		top: 90px;
 	}
 
 	.Instagram-Logo {
 		left: 28%;
-		width:30px;
-		height:30px;
+		width:50px;
+		height:50px;
 		top: 95px;
 	}
 
 	.Gmail-Logo {
 		left: 51%;
-		width:47px;
-		height:30px;
+		width:67px;
+		height:50px;
 		top: 95px;
 	}
 

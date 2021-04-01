@@ -127,7 +127,7 @@ html {
 .Theme-Photo { 
 	background-color:rgba(196.00000351667404, 196.00000351667404, 196.00000351667404, 1);
 	opacity:1;
-	width:1275px;
+	width: 83.4%;
 	height:230px;
 	position:absolute;
 	left: 110px;
@@ -148,15 +148,15 @@ html {
 }
 
 .Work-1, .Work-4 {
-	left: 110px;
+	margin-left: 110px;
 }
 
 .Work-2, .Work-5 {
-	left:574px;
+	margin-left:574px;
 }
 
 .Work-3 {
-	left:1036px;
+	margin-left:1036px;
 	top:301px;
 }
 
@@ -581,18 +581,19 @@ html {
 	.About-link, .Works-link, .Contact-link {
 		top: 35px;
 		font-size: 20px;
+		width: 50px;
 	}
 
 	.About-link {
-		left: 40%;
+		left: 50%;
 	}
 
 	.Works-link {
-		left: 56%;
+		left: 68%;
 	}
 
 	.Contact-link {
-		left: 72%;
+		left: 84%;
 	}
 
 	.Works-Desc {
@@ -689,18 +690,19 @@ html {
 	.About-link, .Works-link, .Contact-link {
 		top: 35px;
 		font-size: 20px;
+		width: 50px;
 	}
 
 	.About-link {
-		left: 35%;
+		left: 49%;
 	}
 
 	.Works-link {
-		left: 51%;
+		left: 65%;
 	}
 
 	.Contact-link {
-		left: 68%;
+		left: 81%;
 	}
 
 	.Works-Desc {

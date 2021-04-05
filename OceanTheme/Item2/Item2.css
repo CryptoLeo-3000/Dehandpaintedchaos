@@ -56,7 +56,7 @@ html {
 	background-color:#e8dde0;
 	opacity:1;
 	width:350px;
-	height:437.5px;
+	height:438px;
 	position:absolute;
 	left:0px;
 	top:0px;
@@ -144,4 +144,8 @@ html {
 	height: 100px;
 	width: 100px;
 	top: 900px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
 }

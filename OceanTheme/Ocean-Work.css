@@ -194,7 +194,7 @@ html {
 	height:0px;
 	position:absolute;
 	left:20%;
-	top:1583px;
+	top: 1650px;
 }
 
 .Contact { 
@@ -203,57 +203,49 @@ html {
 	height:512px;
 	position:absolute;
 	left:0px;
-	top:1654px;
+	top:3250px;
 	display: flex;
 }
 
-.Contact-Title { 
-	color:rgba(231.00000143051147, 149.00000631809235, 112.000000923872, 1);
-	opacity:1;
+.Contact-Title {
 	width:187px;
 	height:59px;
-	position:absolute;
-	left:40px;
+	left:5%;
 	top:20px;
-	font-family: 'Flavors', cursive;
-	text-align:center;
-	font-size:50px;
-	letter-spacing:0;
-	line-height:undefined;
 }
 
 .Facebook-Logo { 
 	opacity:1;
-	width:114px;
-	height:100px;
+	width:84px;
+	height: 70px;
 	position:absolute;
 	left:40px;
 	top:131px;
-	background-image: url(../images/facebook-logo.png);
+	background-image: url(../images/gmail-logo.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 
 .Instagram-Logo { 
 	opacity:1;
-	width:90px;
-	height:90px;
+	width:70px;
+	height:70px;
 	position:absolute;
 	left:227px;
-	top:131px;
-	background-image: url(../images/instagram-logo.png);
+	top:137px;
+	background-image: url(images/instagram-logo.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 
 .Gmail-Logo { 
 	opacity:1;
-	width:117px;
-	height:87px;
+	width: 100px;
+	height: 70px;
 	position:absolute;
 	left:414px;
-	top:131px;
-	background-image: url(../images/gmail-logo.png);
+	top:135px;
+	background-image: url(images/gmail-logo.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -262,10 +254,10 @@ html {
 	background-color:rgba(0, 0, 0, 0.550000011920929);
 	opacity:1;
 	width:100%;
-	height:287px;
+	height: 100px;
 	position:absolute;
 	left:0px;
-	top:2237px;
+	top:3667px;
 }
 
 @media (min-width: 2560px) {

@@ -16,14 +16,14 @@ if ($total=mysqli_num_rows($data)) {
 	?>
 	<table border="2">
 <tr>
-<th>id</th>
-<th>firstname</th>
-<th>lastname</th>
-<th>gmail</th>
-<th>number</th>
-<th>address</th>
-<th>delete</th>
-<th>update</th>
+<th>Full Name</th>
+<th>Cell Number</th>
+<th>Email</th>
+<th>Address</th>
+<th>City</th>
+<th>State</th>
+<th>Zip</th>
+<th>Delete User</th>
 </tr>
 
 	<?php
@@ -32,14 +32,15 @@ if ($total=mysqli_num_rows($data)) {
 
 		echo " 
 			<tr>
-				<td>".$result['id']."</td>
-				<td>".$result['firstname']."</td>
-				<td>".$result['lastname']."</td>
+			<td>".$result['fullname']."</td>
+				<td>".$result['fullname']."</td>
+				<td>".$result['cellnumber']."</td>
 				<td>".$result['gmail']."</td>
-				<td>".$result['number']."</td>
 				<td>".$result['address']."</td>
-				<td><a href='update.php?id=$result[id] & firstname=$result[firstname] & lastname=$result[lastname] & gmail=$result[gmail] & number=$result[number] &address=$result[address]'> update </a></td>
-				<td><a href='delete.php?id=$result[id] '>delete </a></td>
+				<td>".$result['city']."</td>
+				<td>".$result['state']."</td>
+				<td>".$result['zip']."</td>
+				<td><a href='delete.php?fullname=$result[fullname] '>Delete User</a></td>
 			</tr>
 		";
 	}

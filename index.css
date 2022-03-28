@@ -1245,3 +1245,66 @@ html {
 		display: none;
 	}
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #3B3039;
+	color: #bf2766;
+    color: white;
+    font-weight: bold;
+  }
+  input[type=submit]:hover {
+    color: black;
+    background-color: #EE4B2B;
+  }
+
+.container {
+    margin-top: 50px;
+    width: 85%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+  }
+
+input[type=submit] {
+    background-color: #3B3039;
+	color: #bf2766;
+    color: white;
+    font-weight: bold;
+  }
+  input[type=submit]:hover {
+    color: black;
+    background-color: #EE4B2B;
+  }

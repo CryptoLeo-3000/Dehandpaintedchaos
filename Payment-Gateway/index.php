@@ -100,11 +100,18 @@
       color: grey;
     }
 
-    .pay-now-button {
-      left: 500px;
-      margin-left: 500px;
-      border-left: 500px;
-      padding-left: 500px;
+    input[type=submit]
+    {
+      background-color: #3B3039;
+      color: #bf2766;
+      color: white;
+      font-weight: bold;
+    }
+
+    input[type=submit]:hover
+    {
+      color: black;
+      background-color: #EE4B2B;
     }
 
     @media (max-width: 800px) {
@@ -150,7 +157,8 @@
           <label>
             <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
           </label>
-          <script class="pay-now-button" name="submit" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JCMQXdcSIqR5Oz" async></script>
+          <script name="submit" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JCMQXdcSIqR5Oz" async></script>
+          <!-- <script class="pay-now-button" name="submit" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JCMQXdcSIqR5Oz" async></script> -->
         </form>
       </div>
     </div>

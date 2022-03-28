@@ -129,6 +129,20 @@ html {
   	transform: translate3d(0px, 0px, 0px);
 }
 
+.pay-now {
+	padding-top: 1265px;
+	padding-left: 82px;
+	font-family: 'Eagle Lake', cursive;
+	font-size: 40px;
+	width: 200px;
+	color: black;
+	text-align: center;
+}
+
+.pay-now-link {
+	text-decoration: none;
+}
+
 #g_041 {
 	font-family: 'Eagle Lake', cursive;
 	font-size: 40px;
@@ -146,7 +160,7 @@ html {
 	height:208.05429077148438px;
 	position:absolute;
 	left:82px;
-	top:1265px;
+	top:1400px;
 }
 
 .Contact-title { 

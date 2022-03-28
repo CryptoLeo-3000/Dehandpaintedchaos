@@ -77,6 +77,20 @@ html {
 	line-height:undefined;
 }
 
+.pay-now {
+	padding-top: 650px;
+	padding-left: 82px;
+	font-family: 'Eagle Lake', cursive;
+	font-size: 40px;
+	width: 200px;
+	color: black;
+	text-align: center;
+}
+
+.pay-now-link {
+	text-decoration: none;
+}
+
 .Contact { 
 	background-color:#e8dde0;
 	opacity:1;
@@ -84,7 +98,7 @@ html {
 	height:208.05429077148438px;
 	position:absolute;
 	left:82px;
-	top:650px;
+	top: 780px;
 }
 
 .Contact-title { 

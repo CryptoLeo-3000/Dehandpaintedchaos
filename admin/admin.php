@@ -47,6 +47,7 @@
         print("<h1>Login Sucessful</h1>");
         print("<br><h2>Hello DehandpaintedChaos!!!</h2>");
         print("<br><h2>Here are the Details of the users Registered</h2>");
+        include 'show.php'
     }
     else 
     {
@@ -54,9 +55,6 @@
     
     }
     ?>
-    <div align="center">
-            <?php include 'show.php' ?>
-    </div>
     </div>
 </body>
 </html>

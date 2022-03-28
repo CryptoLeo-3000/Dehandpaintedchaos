@@ -100,6 +100,13 @@
       color: grey;
     }
 
+    .pay-now-button {
+      left: 500px;
+      margin-left: 500px;
+      border-left: 500px;
+      padding-left: 500px;
+    }
+
     @media (max-width: 800px) {
       .row {
         flex-direction: column-reverse;
@@ -143,37 +150,10 @@
           <label>
             <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
           </label>
-          <script type="submit" name="submit" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JCCZSWYWsMzeGZ" async></script>
+          <script class="pay-now-button" name="submit" src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JCMQXdcSIqR5Oz" async></script>
         </form>
       </div>
     </div>
   </div>
 </body>
 </html>
-<?php 
-  error_reporting(0);
-  include 'connection.php';
-  if (isset($_POST['submit'])) 
-  {
-    $firstname = $_POST['FullName'];
-    $gmail = $_POST['Email'];
-    $number = $_POST['number'];
-    $fullname = $_POST['fullname'];
-    $cellnumber = $_POST['cellnumber'];
-    $gmail = $_POST['gmail'];
-    $address = $_POST['address'];
-    $city = $_POST['city'];
-    $state = $_POST['state'];
-    $zip = $_POST['zip'];
-    $sql = "INSERT INTO `reg` VALUES ('$fullname','$cellnumber','$gmail','$address','city','state','zip')";
-    $data=mysqli_query($con,$sql);
-    if ($data) 
-    {
-      echo "insert";
-    }
-    else
-    {
-      echo "sorry";
-    }
-  }
-?>
